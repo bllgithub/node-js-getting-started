@@ -21,8 +21,8 @@ test('responds to requests', (t) => {
       // Successful response
       t.equal(response.statusCode, 200);
       // Assert content checks
-      t.notEqual(response.body.indexOf("<title>Node.js Getting Started on Heroku</title>"), -1);
-      t.notEqual(response.body.indexOf("Getting Started on Heroku with Node.js"), -1);
+      t.notEqual(response.body.indexOf("<title>From Test.js   Node.js Getting Started on Heroku by BLL</title>"), -1);
+      t.notEqual(response.body.indexOf("From Test.js    Getting Started on Heroku with Node.js by BLL din ito"), -1);
     })();
   });
 });
